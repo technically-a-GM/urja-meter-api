@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Never publish downloaded authenticated portal data (contains geo coordinates).
+data/*.json
+meter-export*.json
